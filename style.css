@@ -1,0 +1,136 @@
+  
+  body {
+  text-align: center;
+    font: 16px Arial;  
+  }
+  h1{
+  text-align: center;
+  color:rgb(166, 236, 236)
+}
+.Search{
+  display: inline;
+font-size: 30px;
+color: rgb(2, 7, 10);
+border: 1 solid rgb(188, 62, 62);
+font-weight: bold;
+cursor: pointer;
+font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+  }
+  
+  tr:hover {background-color: #c9e6e6;}
+
+  * {
+    box-sizing: border-box;
+  }
+
+  
+  /*the container must be positioned relative:*/
+  .autocomplete {
+    position: relative;
+    display: inline;
+  }
+
+
+  input {
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  input[type=text] {
+    background-color: #f1f1f1;
+    width: 15%;
+    margin-left: 30px;
+    margin-left: 30px;
+  }
+  
+  input[type=submit] {
+    background-color: DodgerBlue;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
+  
+  .autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff; 
+    border-bottom: 1px solid #d4d4d4; 
+  }
+  
+  /*when hovering an item:*/
+  .autocomplete-items div:hover {
+    background-color: #e9e9e9; 
+  }
+  
+  /*when navigating through the items using the arrow keys:*/
+  .autocomplete-active {
+    background-color: DodgerBlue !important; 
+    color: #ffffff; 
+  }
+  .a{
+    visibility: hidden;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+ .scroll{
+  
+	  border: 2 rem solid black;
+  display: flex;
+    flex: 1 1 auto;
+    text-align: center;
+    justify-content:baseline;
+    flex-direction: column;
+    background-color: aliceblue;
+    width:1100px;
+   margin-left:200px;
+   border: 2px solid rgb(96, 154, 172);
+
+  }
+  .detais{
+    margin-left:50px;
+color: DodgerBlue;
+text-align: left;
+  }
+  .title{
+    color: black;
+    font-size: larger;
+  }
